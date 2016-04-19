@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D60A2621CC5D455006803A8 /* testaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D60A2621CC5D455006803A8 /* HGT-Release.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HGT-Release.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D60A2651CC5D455006803A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D60A2671CC5D455006803A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D60A26A1CC5D456006803A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		3D60A2631CC5D455006803A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D60A2621CC5D455006803A8 /* testaa.app */,
+				3D60A2621CC5D455006803A8 /* HGT-Release.app */,
 				3D60A2761CC5D456006803A8 /* testaaUITests.xctest */,
 			);
 			name = Products;
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D60A2611CC5D455006803A8 /* testaa */ = {
+		3D60A2611CC5D455006803A8 /* HGT-Release */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D60A27F1CC5D456006803A8 /* Build configuration list for PBXNativeTarget "testaa" */;
+			buildConfigurationList = 3D60A27F1CC5D456006803A8 /* Build configuration list for PBXNativeTarget "HGT-Release" */;
 			buildPhases = (
 				3D60A25E1CC5D455006803A8 /* Sources */,
 				3D60A25F1CC5D455006803A8 /* Frameworks */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = testaa;
+			name = "HGT-Release";
 			productName = testaa;
-			productReference = 3D60A2621CC5D455006803A8 /* testaa.app */;
+			productReference = 3D60A2621CC5D455006803A8 /* HGT-Release.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3D60A2751CC5D456006803A8 /* testaaUITests */ = {
@@ -166,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D60A2611CC5D455006803A8 /* testaa */,
+				3D60A2611CC5D455006803A8 /* HGT-Release */,
 				3D60A2751CC5D456006803A8 /* testaaUITests */,
 			);
 		};
@@ -215,7 +215,7 @@
 /* Begin PBXTargetDependency section */
 		3D60A2781CC5D456006803A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D60A2611CC5D455006803A8 /* testaa */;
+			target = 3D60A2611CC5D455006803A8 /* HGT-Release */;
 			targetProxy = 3D60A2771CC5D456006803A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -329,7 +329,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testaa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.witness.testaa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haoluo.hgt2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -340,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testaa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.witness.testaa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haoluo.hgt2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -379,13 +379,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D60A27F1CC5D456006803A8 /* Build configuration list for PBXNativeTarget "testaa" */ = {
+		3D60A27F1CC5D456006803A8 /* Build configuration list for PBXNativeTarget "HGT-Release" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D60A2801CC5D456006803A8 /* Debug */,
 				3D60A2811CC5D456006803A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D60A2821CC5D456006803A8 /* Build configuration list for PBXNativeTarget "testaaUITests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +395,7 @@
 				3D60A2841CC5D456006803A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
